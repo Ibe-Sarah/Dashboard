@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr 4fr;
+    background-color: #d1d5db;
+}
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4px;
+    grid-column: 2/4;
+    background-color: white;
+}
+.Sidebar {
+    background-color: #0ea5e9;
+    grid-row: 1/6;
+    grid-column: 1/2;
+    
+ 
+}
